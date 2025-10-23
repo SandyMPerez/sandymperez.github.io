@@ -11016,4 +11016,16 @@ section.resume-section .resume-section-content {
   background-color:#597BA5 !important;
   border-color:#597BA5 !important;
 }
+/* Verify buttons: outline slightly darker than primary (#829cbc) */
+.btn-outline-primary.verify{
+  /* Bootstrap 5 button CSS variables */
+  --bs-btn-color: #597BA5;
+  --bs-btn-border-color: #597BA5;
+  --bs-btn-hover-bg: #597BA5;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-border-color: #597BA5;
+  --bs-btn-active-bg: #597BA5;
+  --bs-btn-active-border-color: #597BA5;
+  --bs-btn-focus-shadow-rgb: 89,123,165; /* for the focus ring */
+}
 
