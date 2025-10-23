@@ -10999,4 +10999,21 @@ section.resume-section .resume-section-content {
   border-color: var(--bs-primary) !important;
   box-shadow: 0 0 0 .25rem rgba(130,156,188,.25) !important; /* uses your rgb */
 }
+/* VERIFY buttons: darker than primary (#829cbc) */
+.btn-outline-primary.verify{
+  color: #597BA5 !important;
+  border-color: #597BA5 !important;
+}
+.btn-outline-primary.verify:hover,
+.btn-outline-primary.verify:focus{
+  color: #fff !important;
+  background-color: #597BA5 !important;
+  border-color: #597BA5 !important;
+  box-shadow: 0 0 0 .25rem rgba(89,123,165,.25) !important;
+}
+.btn-outline-primary.verify:active{
+  color:#fff !important;
+  background-color:#597BA5 !important;
+  border-color:#597BA5 !important;
+}
 
