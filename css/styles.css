@@ -11033,7 +11033,7 @@ section.resume-section .resume-section-content {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
                Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
                "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;            /* same weight as headings */
+  font-weight: 400;            /* same weight as headings */
   letter-spacing: .02em;
   font-size: 1.15rem;          /* tweak as you like */
   line-height: 1.2;
@@ -11043,7 +11043,7 @@ section.resume-section .resume-section-content {
 }
 /* Make role dates not bold */
 .role-dates{
-  font-weight: 500;           /* you loaded 500 & 700; 500 = lighter */
+  font-weight: 400;           /* you loaded 500 & 700; 500 = lighter */
   /* keep the rest of your styles as-is */
 }
 
