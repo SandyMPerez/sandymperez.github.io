@@ -11028,4 +11028,17 @@ section.resume-section .resume-section-content {
   --bs-btn-active-border-color: #597BA5;
   --bs-btn-focus-shadow-rgb: 89,123,165; /* for the focus ring */
 }
+/* Dates under job titles */
+.role-dates{
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+               "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;            /* same weight as headings */
+  letter-spacing: .02em;
+  font-size: 1.15rem;          /* tweak as you like */
+  line-height: 1.2;
+  margin-top: .15rem;
+  margin-bottom: .5rem;        /* space before paragraph */
+  color: var(--bs-primary);    /* your blue-grey */
+}
 
