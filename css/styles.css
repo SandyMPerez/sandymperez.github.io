@@ -11041,4 +11041,9 @@ section.resume-section .resume-section-content {
   margin-bottom: .5rem;        /* space before paragraph */
   color: var(--bs-primary);    /* your blue-grey */
 }
+/* Make role dates not bold */
+.role-dates{
+  font-weight: 500;           /* you loaded 500 & 700; 500 = lighter */
+  /* keep the rest of your styles as-is */
+}
 
