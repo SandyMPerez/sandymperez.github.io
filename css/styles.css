@@ -11046,4 +11046,8 @@ section.resume-section .resume-section-content {
   font-weight: 400;           /* you loaded 500 & 700; 500 = lighter */
   /* keep the rest of your styles as-is */
 }
+/* Make 'Selected Coursework' match the degree subheading color */
+#education h5 {
+  color: var(--bs-gray-600);   /* same tone as subheading text */
+}
 
