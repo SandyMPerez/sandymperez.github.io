@@ -11054,4 +11054,6 @@ section.resume-section .resume-section-content {
 .mini-bullets li { margin-bottom: .15rem; }
 .mini-bullets .fa-li { left: -1.25em; }
 .mini-bullets .fa-li i { font-size: .85em; }
+/* more space between FA list icons and text */
+.mini-bullets.fa-ul { --fa-li-width: 2.4em; }   /* try 2.2–2.6em */
 
