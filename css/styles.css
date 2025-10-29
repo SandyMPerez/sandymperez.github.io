@@ -11050,10 +11050,18 @@ section.resume-section .resume-section-content {
 #education h5 {
   color: var(--bs-gray-600);   /* same tone as subheading text */
 }
-.mini-bullets { margin-left: 1.25rem; font-size: 0.95rem; }
-.mini-bullets li { margin-bottom: .15rem; }
-.mini-bullets .fa-li { left: -1.25em; }
-.mini-bullets .fa-li i { font-size: .85em; }
-/* more space between FA list icons and text */
-.mini-bullets.fa-ul { --fa-li-width: 2.4em; }   /* try 2.2–2.6em */
+/* compact text size (keep if you want) */
+.mini-bullets { font-size: 0.95rem; }
+
+/* spacing between items */
+.mini-bullets li { margin-bottom: .15rem; position: relative; }
+
+/* use FA's box width for both icon position and text indent */
+.mini-bullets.fa-ul {
+  --fa-li-width: 2.2em;                 /* adjust 2.0–2.6em to taste */
+  margin-left: calc(var(--fa-li-width) + 0.4em);  /* extra gap after icon */
+}
+
+/* optional: small icon size in the sub-list */
+.mini-bullets .fa-li i { font-size: .9em; line-height: 1; }
 
