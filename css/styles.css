@@ -11064,14 +11064,5 @@ section.resume-section .resume-section-content {
 
 /* optional: small icon size in the sub-list */
 .mini-bullets .fa-li i { font-size: .9em; line-height: 1; }
-/* extra-small verify buttons */
-.verify.btn{
-  font-size: .72rem;        /* smaller text */
-  padding: .15rem .38rem;   /* tighter pill */
-  line-height: 1.1;
-  border-radius: .35rem;    /* smaller corners (optional) */
-}
 
-/* even smaller (optional) */
-/* .verify.btn { font-size:.68rem; padding:.12rem .32rem; } */
 
