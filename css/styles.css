@@ -11050,4 +11050,8 @@ section.resume-section .resume-section-content {
 #education h5 {
   color: var(--bs-gray-600);   /* same tone as subheading text */
 }
+.mini-bullets { margin-left: 1.25rem; font-size: 0.95rem; }
+.mini-bullets li { margin-bottom: .15rem; }
+.mini-bullets .fa-li { left: -1.25em; }
+.mini-bullets .fa-li i { font-size: .85em; }
 
