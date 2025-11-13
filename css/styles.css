@@ -11065,4 +11065,17 @@ section.resume-section .resume-section-content {
 /* optional: small icon size in the sub-list */
 .mini-bullets .fa-li i { font-size: .9em; line-height: 1; }
 
+.resume-group-title {
+  font-size: 1.35rem;        /* Bigger than role titles, smaller than "Experience" */
+  font-weight: 600;
+}
+
+.career-break-subtitle {
+  font-size: 1.35rem;        /* Same size as "Professional Development" */
+  font-weight: 400;
+}
+
+.company-group {
+  margin-left: 1.5rem;       /* Indent all Ford roles under "Ford Motor Company" */
+}
 
