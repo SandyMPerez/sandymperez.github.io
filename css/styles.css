@@ -11079,3 +11079,30 @@ section.resume-section .resume-section-content {
   margin-left: 1.5rem;       /* Indent all Ford roles under "Ford Motor Company" */
 }
 
+/* Group headings: PROFESSIONAL DEVELOPMENT, FORD MOTOR COMPANY */
+.resume-group-title {
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #000;
+  font-size: 1.25rem;      /* > job titles, < "EXPERIENCE" */
+  margin-bottom: 0.25rem;
+}
+
+/* Career Break line + job titles look the same */
+.career-break-subtitle,
+.company-group h4 {
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #000;
+  font-size: 1.05rem;      /* job title size */
+}
+
+/* Indent content under Professional Development and Ford Motor Company */
+.career-break-content,
+.company-group {
+  padding-left: 1.5rem;
+}
