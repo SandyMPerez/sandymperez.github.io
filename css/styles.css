@@ -11106,3 +11106,37 @@ section.resume-section .resume-section-content {
 .company-group {
   padding-left: 1.5rem;
 }
+
+/* Match the SCHOOL NAMES (h3) style for these headings */
+.resume-group-title,
+.career-break-subtitle,
+.company-group h4 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #343a40;   /* same dark gray as your school names */
+}
+
+/* Size hierarchy:
+   - Experience (h2)  > Professional Development & Ford Motor Company
+   - Professional Development & Ford Motor Company > Career Break & job titles
+*/
+
+/* PROFESSIONAL DEVELOPMENT + FORD MOTOR COMPANY */
+.resume-group-title {
+  font-size: 1.6rem;   /* tweak up/down if needed */
+  margin-bottom: 0.25rem;
+}
+
+/* CAREER BREAK + JOB TITLES (Ford Sales & Inventory Specialist, etc.) */
+.career-break-subtitle,
+.company-group h4 {
+  font-size: 1.3rem;   /* same size for Career Break + job titles */
+}
+
+/* Indent everything under Professional Development and Ford Motor Company */
+.career-break-content,
+.company-group {
+  margin-left: 1.5rem;  /* increase to 2rem if you want a deeper indent */
+}
