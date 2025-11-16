@@ -11119,3 +11119,12 @@ li.check-bullet .fa-li {
   font-size: inherit;
 }
 
+/* Keep mini-bullets in Highlights from adding extra indent or changing font */
+.company-highlights__list .mini-bullets {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.company-highlights__list .mini-bullets li {
+  font-size: inherit;
+}
