@@ -11100,15 +11100,22 @@ section.resume-section .resume-section-content {
   margin-left: 1.5rem;  /* increase to 2rem if you want a deeper indent */
 }
 
-/* Use checkmark instead of round bullet for selected items */
-.role-bullets li.check-bullet {
-  list-style: none;           /* hide the normal bullet */
+/* Shared style for any checkmark bullet */
+li.check-bullet {
+  list-style: none;          /* no round bullet */
   position: relative;
-  padding-left: 1.5rem;       /* space for the icon */
+  padding-left: 1.75rem;     /* space between checkmark and text */
 }
 
-.role-bullets li.check-bullet .fa-li {
+/* Position the Font Awesome checkmark */
+li.check-bullet .fa-li {
   position: absolute;
   left: 0;
-  top: 0.1rem;                /* tweak vertically if needed */
+  top: 0.15rem;              /* tweak vertical alignment */
 }
+
+/* Make mini-bullets in Highlights the same font size as normal bullets */
+.company-highlights__list .mini-bullets li {
+  font-size: inherit;
+}
+
