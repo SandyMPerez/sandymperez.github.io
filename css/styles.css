@@ -11125,6 +11125,9 @@ li.check-bullet .fa-li {
   padding-left: 0;
 }
 
+/* Make mini-bullets in Highlights the same font size as normal bullets */
+.company-highlights__list .mini-bullets,
 .company-highlights__list .mini-bullets li {
   font-size: inherit;
 }
+
