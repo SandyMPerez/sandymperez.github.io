@@ -11145,3 +11145,14 @@ li.check-bullet .fa-li {
 .role-contributions__header::-webkit-details-marker {
   display: none;
 }
+
+/* Make Earlier Career summary look like an H4 job title */
+.role-contributions__header.h4-heading {
+  cursor: pointer;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 1.3rem;   /* same as your job-title h4s */
+  color: #343a40;      /* same dark gray as other headings */
+}
