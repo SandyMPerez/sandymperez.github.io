@@ -11165,3 +11165,8 @@ li.check-bullet .fa-li {
   letter-spacing: inherit;
   text-transform: inherit;
 }
+
+/* Extra space before bottom collapsible sections */
+.section-gap-top {
+  margin-top: 3.5rem;   /* increase to 4rem/5rem if you want even more space */
+}
