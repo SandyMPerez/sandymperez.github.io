@@ -11131,3 +11131,13 @@ li.check-bullet .fa-li {
   font-size: inherit;
 }
 
+/* Key Contributions toggle */
+.role-contributions__header {
+  cursor: pointer;
+  font-weight: 600;      /* keeps it bold / regular text size */
+}
+
+/* (Optional) remove default disclosure triangle if you don't like it */
+.role-contributions__header::-webkit-details-marker {
+  display: none;
+}
