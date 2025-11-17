@@ -11156,3 +11156,12 @@ li.check-bullet .fa-li {
   font-size: 1.3rem;   /* same as your job-title h4s */
   color: #343a40;      /* same dark gray as other headings */
 }
+
+/* Make the education summary use the same font as .subheading */
+.role-contributions__header.subheading {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
