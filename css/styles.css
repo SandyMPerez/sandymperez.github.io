@@ -11176,3 +11176,18 @@ li.check-bullet .fa-li {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;             /* solid */
 }
+
+/* Star bullets for awards (same indent as arrow bullets) */
+.star-bullet {
+  list-style: none;
+  position: relative;
+  margin-left: 0;
+  padding-left: 1.75rem;   /* same as arrow-bullet */
+}
+
+.star-bullet__icon {
+  position: absolute;
+  left: 0;
+  top: 0.15rem;            /* align vertically with text */
+  font-size: 0.95em;       /* tweak if needed */
+}
