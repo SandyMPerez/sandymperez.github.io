@@ -11191,3 +11191,27 @@ li.check-bullet .fa-li {
   top: 0.15rem;            /* align vertically with text */
   font-size: 0.95em;       /* tweak if needed */
 }
+
+/* Certificates & Awards grid layout */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem 3rem;
+}
+
+.cert-group h4 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #343a40;
+}
+
+.cert-group .fa-ul {
+  margin-left: 2rem; /* keep FA icons aligned but not too indented */
+}
+
+/* Make certificate/award names normal weight */
+.credential-name,
+.award-name {
+  font-weight: 400;
+}
