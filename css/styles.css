@@ -11171,7 +11171,7 @@ li.check-bullet .fa-li {
   margin-top: 3.5rem;   /* increase to 4rem/5rem if you want even more space */
 }
 
-.check-bullet .fa-li i::before {
+.arrow-bullet .fa-li i::before {
   content: "\f005" !important;  /* Font Awesome star */
   font-family: "Font Awesome 5 Free";
   font-weight: 900;             /* solid */
