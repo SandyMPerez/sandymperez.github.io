@@ -11191,3 +11191,11 @@ li.check-bullet .fa-li {
   top: 0.15rem;            /* align vertically with text */
   font-size: 0.95em;       /* tweak if needed */
 }
+
+/* Make "Verify" buttons smaller */
+.btn-outline-primary.verify {
+  padding: 0.15rem 0.45rem;  /* less height & width */
+  font-size: 0.7rem;         /* smaller text */
+  line-height: 1.1;          /* keeps it compact vertically */
+  border-radius: 0.15rem;    /* slightly less rounded (optional) */
+}
