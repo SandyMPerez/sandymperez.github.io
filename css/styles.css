@@ -10843,6 +10843,7 @@ body {
     padding-left: 17rem;
   }
 }
+
 h1, .h1,
 h2,
 .h2,
@@ -10877,11 +10878,13 @@ p.lead {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
+
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
@@ -10899,16 +10902,19 @@ p.lead {
     width: 17rem;
     height: 100vh;
   }
+
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
   }
+
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
@@ -10916,17 +10922,21 @@ p.lead {
     width: 100%;
     margin-bottom: auto;
   }
+
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
     width: 100%;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
 }
+
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
@@ -10939,11 +10949,13 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
+
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
+
 .social-icons .social-icon:hover {
-  background-color: # 829cbc;
+  background-color: #829cbc;
 }
 
 .dev-icons {
@@ -10959,6 +10971,7 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
+
 section.resume-section .resume-section-content {
   width: 100%;
 }
@@ -10968,6 +10981,7 @@ section.resume-section .resume-section-content {
     min-height: 100vh;
   }
 }
+
 @media (min-width: 992px) {
   section.resume-section {
     padding-left: 3rem;
@@ -10975,7 +10989,8 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
-} 829cbc
+}
+
 /* Force buttons to use the new primary (blue-grey) */
 .btn-primary{
   background-color: var(--bs-primary) !important;
@@ -10999,6 +11014,7 @@ section.resume-section .resume-section-content {
   border-color: var(--bs-primary) !important;
   box-shadow: 0 0 0 .25rem rgba(130,156,188,.25) !important; /* uses your rgb */
 }
+
 /* VERIFY buttons: darker than primary (#829cbc) */
 .btn-outline-primary.verify{
   color: #597BA5 !important;
@@ -11016,6 +11032,7 @@ section.resume-section .resume-section-content {
   background-color:#597BA5 !important;
   border-color:#597BA5 !important;
 }
+
 /* Verify buttons: outline slightly darker than primary (#829cbc) */
 .btn-outline-primary.verify{
   /* Bootstrap 5 button CSS variables */
@@ -11028,47 +11045,50 @@ section.resume-section .resume-section-content {
   --bs-btn-active-border-color: #597BA5;
   --bs-btn-focus-shadow-rgb: 89,123,165; /* for the focus ring */
 }
+
 /* Dates under job titles */
 .role-dates{
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
                Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
                "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 400;            /* same weight as headings */
+  font-weight: 400;
   letter-spacing: .02em;
-  font-size: 1.15rem;          /* tweak as you like */
+  font-size: 1.15rem;
   line-height: 1.2;
   margin-top: .15rem;
-  margin-bottom: .5rem;        /* space before paragraph */
-  color: var(--bs-primary);    /* your blue-grey */
+  margin-bottom: .5rem;
+  color: var(--bs-primary);
 }
+
 /* Make role dates not bold */
 .role-dates{
-  font-weight: 400;           /* you loaded 500 & 700; 500 = lighter */
-  /* keep the rest of your styles as-is */
+  font-weight: 400;
 }
+
 /* Make 'Selected Coursework' match the degree subheading color */
 #education h5 {
-  color: var(--bs-gray-600);   /* same tone as subheading text */
+  color: var(--bs-gray-600);
 }
+
 /* compact text size (keep if you want) */
 .mini-bullets { font-size: 0.95rem; }
 
 /* spacing between items */
-.mini-bullets li { 
-  margin-bottom: .15rem; 
-  position: relative; 
+.mini-bullets li {
+  margin-bottom: .15rem;
+  position: relative;
 }
 
 /* use FA's box width for both icon position and text indent */
 .mini-bullets.fa-ul {
-  --fa-li-width: 2.2em;                 /* adjust 2.0–2.6em to taste */
-  margin-left: calc(var(--fa-li-width) + 0.4em);  /* extra gap after icon */
+  --fa-li-width: 2.2em;
+  margin-left: calc(var(--fa-li-width) + 0.4em);
 }
 
 /* optional: small icon size in the sub-list */
-.mini-bullets .fa-li i { 
-  font-size: .9em; 
-  line-height: 1; 
+.mini-bullets .fa-li i {
+  font-size: .9em;
+  line-height: 1;
 }
 
 /* Match the SCHOOL NAMES (h3) style for these headings */
@@ -11079,34 +11099,34 @@ section.resume-section .resume-section-content {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #343a40;   /* same dark gray as your school names */
+  color: #343a40;
 }
 
 /* PROFESSIONAL DEVELOPMENT + FORD MOTOR COMPANY */
 .resume-group-title {
-  font-size: 1.6rem;   /* tweak up/down if needed */
+  font-size: 1.6rem;
   margin-bottom: 0.25rem;
 }
 
-/* CAREER BREAK + JOB TITLES (Ford Sales & Inventory Specialist, etc.) */
+/* CAREER BREAK + JOB TITLES */
 .career-break-subtitle,
 .company-group h4 {
-  font-size: 1.3rem;   /* same size for Career Break + job titles */
+  font-size: 1.3rem;
 }
 
 /* Indent everything under Professional Development and Ford Motor Company */
 .career-break-content,
 .company-group {
-  margin-left: 1.5rem;  /* increase to 2rem if you want a deeper indent */
+  margin-left: 1.5rem;
 }
 
 /* Shared layout for any icon bullet (arrows + checks) */
 li.arrow-bullet,
 li.check-bullet {
-  list-style: none;          /* no round bullet */
+  list-style: none;
   position: relative;
   margin-left: 0;
-  padding-left: 1.75rem;     /* space between icon and text */
+  padding-left: 1.75rem;
 }
 
 /* Position the Font Awesome icon for icon bullets */
@@ -11114,9 +11134,8 @@ li.arrow-bullet .fa-li,
 li.check-bullet .fa-li {
   position: absolute;
   left: 0;
-  top: 0.15rem;              /* tweak vertical alignment */
+  top: 0.15rem;
 }
-
 
 /* Make mini-bullets in Highlights the same font size as normal bullets */
 .company-highlights__list .mini-bullets li {
@@ -11138,10 +11157,10 @@ li.check-bullet .fa-li {
 /* Key Contributions toggle */
 .role-contributions__header {
   cursor: pointer;
-  font-weight: 600;      /* keeps it bold / regular text size */
+  font-weight: 600;
 }
 
-/* (Optional) remove default disclosure triangle if you don't like it */
+/* remove default disclosure triangle */
 .role-contributions__header::-webkit-details-marker {
   display: none;
 }
@@ -11153,8 +11172,8 @@ li.check-bullet .fa-li {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 1.3rem;   /* same as your job-title h4s */
-  color: #343a40;      /* same dark gray as other headings */
+  font-size: 1.3rem;
+  color: #343a40;
 }
 
 /* Make the education summary use the same font as .subheading */
@@ -11168,33 +11187,7 @@ li.check-bullet .fa-li {
 
 /* Extra space before bottom collapsible sections */
 .section-gap-top {
-  margin-top: 3.5rem;   /* increase to 4rem/5rem if you want even more space */
+  margin-top: 3.5rem;
 }
 
-.arrow-bullet .fa-li i::before {
-  content: "\f005" !important;  /* Font Awesome star */
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;             /* solid */
-}
-
-/* Star bullets for awards (same indent as arrow bullets) */
-.star-bullet {
-  list-style: none;
-  position: relative;
-  margin-left: 0;
-  padding-left: 1.75rem;   /* same as arrow-bullet */
-}
-
-.star-bullet__icon {
-  position: absolute;
-  left: 0;
-  top: 0.15rem;            /* align vertically with text */
-  font-size: 0.95em;       /* tweak if needed */
-}
-
-/* Extra tiny */
-.btn-outline-primary.verify {
-  padding: 0.1rem 0.35rem;
-  font-size: 0.65rem;
-}
-
+.arrow-bullet .fa
