@@ -787,25 +787,14 @@
       </li>
     </ul>
 
-   <!-- Other (at bottom like Additional Experience / Additional Professional Education) -->
-<div class="mt-4">
-  <button
-    class="additional-toggle"
-    type="button"
-    data-bs-toggle="collapse"
-    data-bs-target="#certsOther"
-    aria-expanded="false"
-    aria-controls="certsOther">
-    <i class="fas fa-caret-right toggle-caret" aria-hidden="true"></i>
-    <span>Other</span>
-  </button>
+    <!-- Other (collapsible) - matches Additional Experience / Additional Professional Education -->
+    <div class="mb-4 section-gap-top">
+      <details class="role-contributions">
+        <summary class="mt-2 mb-1">
+          <em>Other</em>
+        </summary>
 
-  <div class="collapse mt-3" id="certsOther">
-    <!-- Professional Development + Project & Delivery blocks stay the same -->
-  </div>
-</div>
-
-        <!-- Professional Development (same style as other sections) -->
+        <!-- Professional Development (normal size) -->
         <h4 class="mb-0 mt-4">Professional Development</h4>
         <ul class="fa-ul mb-3">
           <li class="mb-2">
@@ -838,9 +827,9 @@
           </li>
         </ul>
 
-        <!-- Project & Delivery (same style as other sections) -->
+        <!-- Project & Delivery (normal size) -->
         <h4 class="mb-0 mt-4">Project &amp; Delivery</h4>
-        <ul class="fa-ul mb-3">
+        <ul class="fa-ul mb-2">
           <li class="mb-2">
             <span class="fa-li"><i class="fas fa-project-diagram text-danger"></i></span>
             Agile Project Management — <em>Atlassian</em>
@@ -863,50 +852,12 @@
                target="_blank" rel="noopener">Verify</a>
           </li>
         </ul>
-
-      </div>
+      </details>
     </div>
 
   </div>
 </section>
 
-<!-- "Other" toggle styling to mimic your Additional Experience / Additional Professional Education look -->
-<style>
-  /* Clickable "Additional-style" toggle */
-  .additional-toggle{
-    all: unset;
-    cursor: pointer;
-    font-style: italic;
-    color: inherit;
-    display: inline-flex;
-    align-items: center;
-    gap: .4rem;
-    line-height: 1.2;
-    position: relative;
-    padding-left: 1.25rem; /* room for caret */
-  }
-
-  /* caret (▶) like your other pages */
-  .additional-toggle::before{
-    content: "▶";
-    position: absolute;
-    left: 0;
-    top: 0;
-    transform: translateY(.05rem);
-    font-style: normal;
-  }
-
-  /* yellow highlight behind the label */
-  .additional-toggle{
-    background: linear-gradient(transparent 55%, #ffe96b 55%);
-    padding-right: .2rem;
-  }
-
-  /* rotate caret when expanded */
-  .additional-toggle[aria-expanded="true"]::before{
-    transform: translateY(.05rem) rotate(90deg);
-  }
-</style>
 
 
 
