@@ -672,7 +672,8 @@
         </div><!-- /.resume-section-content -->
       </section>
 
-     <!-- Certificates and Awards-->
+
+      <!-- Certificates and Awards-->
 <section class="resume-section" id="certificates-awards">
   <div class="resume-section-content">
     <h2 class="mb-4">Certificates &amp; Awards</h2>
@@ -708,16 +709,16 @@
       </li>
     </ul>
 
-    <!-- Other (collapsed) -->
+    <!-- Other (collapsed) - matches header styling -->
     <h4 class="mb-0 mt-4">
       <button
-        class="btn btn-link p-0 text-decoration-none d-inline-flex align-items-center collapsed"
+        class="collapse-header"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#certsOther"
         aria-expanded="false"
         aria-controls="certsOther">
-        Other
+        <span>Other</span>
         <i class="fas fa-chevron-down ms-2 other-chevron"></i>
       </button>
     </h4>
@@ -865,11 +866,33 @@
   </div>
 </section>
 
-<!-- Rotate chevron when expanded -->
+<!-- Other header styling + chevron rotation -->
 <style>
-  .other-chevron { transition: transform .2s ease; }
-  [aria-expanded="true"] .other-chevron { transform: rotate(180deg); }
+  /* Makes the "Other" toggle look like a normal h4 header (not a link/button) */
+  .collapse-header{
+    all: unset;                 /* remove button defaults */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* text left, chevron right */
+    width: 100%;
+  }
+
+  .collapse-header:focus{
+    outline: none;
+  }
+
+  .other-chevron{
+    transition: transform .2s ease;
+  }
+
+  /* Rotate chevron when expanded */
+  .collapse-header[aria-expanded="true"] .other-chevron{
+    transform: rotate(180deg);
+  }
 </style>
+
+
 
 
       <hr class="m-0" />
