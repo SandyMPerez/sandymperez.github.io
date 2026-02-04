@@ -11196,17 +11196,19 @@ li.check-bullet .fa-li {
 .about-summary p {
   text-align: justify;
   text-justify: inter-word;
-  text-indent: 2em;
-  margin: 0 0 1rem 0;
+  text-indent: 2em;          /* first-line indent ("indexing") */
+  margin: 0 0 1rem 0;        /* spacing between paragraphs */
 }
 
+/* Keep the block spacing controlled by the wrapper */
 .about-summary p:last-child {
   margin-bottom: 0;
 }
 
-/* Optional: remove indent on small screens for cleaner mobile reading */
+/* Optional: remove indent on small screens (looks cleaner on mobile) */
 @media (max-width: 576px) {
   .about-summary p {
     text-indent: 0;
   }
 }
+
