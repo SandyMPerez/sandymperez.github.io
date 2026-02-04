@@ -11191,3 +11191,22 @@ li.check-bullet .fa-li {
 }
 
 .arrow-bullet .fa
+
+/* Summary formatting like Word: justified + first-line indent + paragraph spacing */
+.about-summary p {
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 2em;
+  margin: 0 0 1rem 0;
+}
+
+.about-summary p:last-child {
+  margin-bottom: 0;
+}
+
+/* Optional: remove indent on small screens for cleaner mobile reading */
+@media (max-width: 576px) {
+  .about-summary p {
+    text-indent: 0;
+  }
+}
